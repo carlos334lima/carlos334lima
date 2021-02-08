@@ -1,16 +1,75 @@
-### Hi there 👋
 
-<!--
-**carlos334lima/carlos334lima** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:Xamarin.Theming.ViewModels"
+             mc:Ignorable="d"
+             x:DataType="vm:LoginPageViewModel"
+             x:Class="Xamarin.Theming.Views.LoginPage"
+             BackgroundColor="{DynamicResource CorDeFundo}"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 
-Here are some ideas to get you started:
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="42*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            
+            <Label Grid.Row="0"
+                   Text="Login animado! ✨"
+                   FontAttributes="Bold"
+                   TextColor="{DynamicResource CorPrimariaTexto}"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   FontSize="38"/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+            <StackLayout Orientation="Vertical" Margin="50,0,50,0" Grid.Row="1">
+                <Label HorizontalOptions="CenterAndExpand"
+                           Margin="0,0,0,15"
+                           Text="Faça login para continuar"
+                           TextColor="{DynamicResource CorPrimariaTexto}"
+                           FontSize="14" />
+
+                <Entry Style="{StaticResource EntryEstiloLogin}"
+                           Text="{Binding Username, Mode=TwoWay}"
+                           IsEnabled="{Binding IsNotBusy}"
+                           ReturnType="Next"
+                           Placeholder="Usuário"/>
+
+                <Entry Style="{StaticResource EntryEstiloLogin}" 
+                           Text="{Binding Password, Mode=TwoWay}"
+                           IsEnabled="{Binding IsNotBusy}"
+                           ReturnType="Go"
+                           ReturnCommand="{Binding LoginCommand}"
+                           Placeholder="Senha" 
+                           IsPassword="True"/>
+
+                <Grid HorizontalOptions="FillAndExpand" HeightRequest="50" Padding="0" Margin="0">
+                    <Button x:Name="LoginButton"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="{DynamicResource ButtonCorDeFundo}"
+                            TextColor="{DynamicResource ButtonCorTexto}"
+                            Command="{Binding LoginCommand}"
+                            Text="Entrar"
+                            CornerRadius="25"/>
+
+                    <Frame x:Name="LoginFrame"
+                               BackgroundColor="{DynamicResource ButtonCorDeFundo}"
+                               IsVisible="False"
+                               CornerRadius="25"
+                               Padding="0" 
+                               Margin="0">
+
+                        <ActivityIndicator Color="{DynamicResource ButtonCorTexto}"
+                                           IsRunning="{Binding IsBusy}"
+                                           PropertyChanged="OnActivityIndicatorPropertyChanged"/>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
