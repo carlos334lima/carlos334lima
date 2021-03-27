@@ -1,4 +1,4 @@
-<img src="https://pronovix.com/sites/default/files/blogpost/image/blogpost_joker_images_1200x800-01.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+<img src="https://miro.medium.com/max/2144/1*rLnrIrpIywxyEX-Vt51l3Q.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 <p align="left"> 
   Olá meu nome é Iuri, sou desenvolvedor de <strong>Front-End</strong> e <strong>UX Designer</strong>. Estou disponível para freelas/trabalho, caso precise contratar meu serviço entre em contato.
