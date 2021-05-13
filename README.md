@@ -17,10 +17,10 @@
 </p>
 
 <p align="left">
-  <a href="" alt="Instagram">
+  <a href="https://carlos334lima.github.io/Portfolio/" alt="Portfólio">
   <img src="https://img.shields.io/badge/-Portfólio-DF0174?style=for-the-badge&logo=&logoColor=white&link=https://www.instagram.com/iuricoding/"/></a>
   
-  <a href="" alt="Linkedin">
+  <a href="https://www.linkedin.com/in/carlos-henrique-lima-60a7ba1a3/" alt="Linkedin">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/iuricode" /></a>
 
  
