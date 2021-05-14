@@ -1,15 +1,15 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Developer Code">
 
 <p align="left"> 
-  Olá meu nome é Carlos Lima, sou desenvolvedor <strong>Front-End</strong>. Estou disponível para freelas/trabalho, caso precise contratar meu serviço entre em contato.
+  Olá meu nome é Carlos Lima, sou desenvolvedor <strong>Front-End</strong>. Estou disponível para Freelas/Trabalho, caso precise contratar meu serviço entre em contato.
 </p>
 
 <p align="left">
-  🚀 Habilidades: <strong>HTML, CSS/SASS , JavaScript, ReactJS, React Native, NodeJS, UI & UX </strong>
+  🚀 Habilidades: <strong>HTML, CSS/SASS , JavaScript, ReactJS, React Native, NodeJS, UI & UX. </strong>
 </p>
 
 <p align="left">
-  💼 Ferramentas: <strong>VSCode, Webpack, Figma, Vercel, Git, GitHub, Azure, Bitbucker & Jira.</strong>
+  💼 Ferramentas: <strong>VSCode, Figma, Vercel, Git, GitHub, Azure, Bitbucker & Jira.</strong>
 </p>
 
 <p align="left">
