@@ -1,4 +1,4 @@
-<img src="https://iuricode.vercel.app/assets/image/iuri-flutuando.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Developer Code">
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Developer Code">
 
 <p align="left"> 
   Olá meu nome é Carlos Lima, sou desenvolvedor <strong>Front-End</strong>. Estou disponível para Freelas/Trabalho, caso precise contratar meu serviço entre em contato.
