@@ -9,7 +9,7 @@
 </p>
 
 <p align="left">
-  💼 Ferramentas: <strong>VSCode, Figma, Vercel, Git, GitHub, Azure, Bitbucker & Jira.</strong>
+  💼 Ferramentas: <strong>VSCode, Figma, Vercel, Git, GitHub, Azure, Bitbucker, Jira & Gitlab.</strong>
 </p>
 
 <p align="left">
